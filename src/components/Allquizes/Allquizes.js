@@ -7,7 +7,7 @@ const Allquizes = ({ quize }) => {
     const { id, logo, name, total } = quize
     return (
         <div>
-            <div className="card card-compact bg-gray-100 shadow-xl">
+            <div className="card card-compact bg-gray-100 shadow-lg mb-10 shadow-cyan-900">
                 <div className='p-1'>
                     <img className='bg-cyan-900 rounded-xl' src={logo} alt="Shoes" />
                 </div>
