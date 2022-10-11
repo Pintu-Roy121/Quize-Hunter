@@ -5,8 +5,9 @@ const Options = ({ quizes, option }) => {
     const { correctAnswer } = quizes;
     const handleClick = (option) => {
         if (option === correctAnswer) {
-            console.log('clickd');
-            // showCorrectAnswer(option);
+            alert('!YAY YOU HAVE SUCCESSFULLY COMPLETED')
+        } else {
+            alert('SORRY Man .......!!!!!!')
         }
     }
     return (
