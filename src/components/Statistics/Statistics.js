@@ -7,9 +7,9 @@ const Statistics = () => {
 
     const { data } = quize
     return (
-        <div className='w-[640px] mx-auto mt-28'>
+        <div className='w-[640px] mx-auto mt-20'>
             <h1 className='text-4xl font-bold text-cyan-500 text-center mb-10'>Chart of All Quizes:</h1>
-            <AreaChart width={640} height={350} data={data}
+            <AreaChart width={600} height={350} data={data}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <defs>
                     <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
