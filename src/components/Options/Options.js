@@ -15,7 +15,7 @@ const Options = ({ quizes, option }) => {
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'Oops...',
+                title: 'Ohhh No......',
                 text: 'Wrong Answer!!!'
             })
         }

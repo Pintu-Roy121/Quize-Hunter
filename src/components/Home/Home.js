@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 const Home = () => {
     const quizes = useLoaderData();
     const allQuize = quizes.data;
-    // console.log(allQuize);
+
     return (
         <div>
             <Header />

@@ -6,7 +6,6 @@ const Statistics = () => {
     const quize = useLoaderData()
 
     const { data } = quize
-    console.log(data);
     return (
         <div className='w-[640px] mx-auto mt-28'>
             <h1 className='text-4xl font-bold text-cyan-500 text-center mb-10'>Chart of All Quizes:</h1>
