@@ -1,8 +1,7 @@
-# Getting Started with Create React App
+# Quize Hunter Assignment-9
+Assignment-9 Live Site Link is Here: [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## (https://github.com/facebook/create-react-app)
 
 In the project directory, you can run:
 
